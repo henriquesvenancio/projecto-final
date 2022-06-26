@@ -1,0 +1,111 @@
+*{
+    font-size: 12pt;
+}
+.cabecalho{
+    margin: -25px -7px 10px -7px;
+    font-size: 18pt;
+    color: #A53077;
+    text-shadow: 2px 2px 10px black;background-color: rgb(169, 169, 169);
+    height: 110px;
+    width: auto;
+    position: relative;
+}div.cabecalho p{
+    padding: 20px 0px 0px 10px;
+}
+
+hr{
+    margin-top: -8px;
+    border-color: darkred;
+    width: 100%;
+    position: relative;
+}
+/*formatação do menu*/
+div.menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    left:230px;
+    top: 5px;
+}
+div.menu li{
+    display: inline-block;
+    background-color:#dddddd;
+    padding: 5px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+div.menu li:hover{
+    background-color: rgb(226, 64, 64);
+}
+div.menu a{
+    color: darkgreen;
+    text-decoration: none;
+}
+div.menu a:hover{
+    color: blue;
+}
+div.centro {
+    text-align: center;
+    position: relative;
+}
+div.project h1{
+    position: relative;
+}
+div.bloco1{
+    position: relative;
+float: left;
+margin: 0px 20px 0px 150px;
+}
+div.bloco2{
+    position: relative;
+    margin-right: 20px;
+    float: left;
+}
+div.bloco3{
+    position: relative;
+    margin-right: 0px;
+}
+input.botao{
+
+    transition: background-color 1s;
+}
+div#boton{
+    position: relative;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+}
+input#botao1{
+
+    transition: background-color 1s;
+}
+input#botao:hover{
+    background-color: rgb(27, 122, 211);
+    color: white;
+}
+input#botao1:hover{
+    background-color: rgb(223, 29, 15);
+    color: white;
+}
+
+fieldset{
+    width: 800px;
+    position: relative;
+    margin: 0px auto;
+    
+}
+fieldset#candidato{ 
+    float: left;
+    border: none;
+}
+
+fieldset legend{
+    color: black;
+    font-size: 17pt;
+}
+fieldset#login{ 
+    border: none;
+}
+fieldset#academico{
+    width: 300px;
+}

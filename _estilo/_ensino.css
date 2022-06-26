@@ -1,0 +1,89 @@
+
+div.link a{
+    text-align: center;
+    margin: 0px auto 0px auto;
+    position: relative;
+    display: inline;
+    padding: 5px;
+}
+div.conteudo{
+    width: 600px;
+    margin: 0px auto;
+    text-align: justify;
+    position: relative;
+}
+h2, p#promo{
+    width: 600px;
+    margin: 0px auto;
+    text-align: justify;
+    position: relative;
+}
+div.link{
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+}
+ul#cursos{
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#cursos li{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    color: black;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+    transition: all .3s ease-in;
+}
+ul#cursos li span{
+    opacity: 0; /*vamos eliminar as letras da legenda*/
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    line-height: 270px;
+    padding: 5px;
+}
+ul#cursos  li:hover{
+    transform: scale(1.5);
+}
+ul#cursos li:hover span{
+    opacity: 1;
+}
+ul#cursos li#curso1{
+    background: url(../_imagem/_designgrafico-1.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 339px 205px;
+    background-color: #ffffff;
+}
+ul#cursos li#curso1:hover{
+    background-position: 0px 0px;
+    background-size: 150px 150px;
+}
+ul#cursos li#curso2{
+    background: url(../_imagem/_imagem_geral.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 640px 413px;
+    background-color: #ffffff;
+}
+ul#cursos li#curso2:hover{
+    background-position: 0px 0px;
+    background-size: 150px 150px;
+}
+ul#cursos li#curso3{
+    background: url(../_imagem/_manipulacao.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 255px 198px;
+    background-color: #ffffff;
+}
+ul#cursos li#curso3:hover{
+    background-position: 0px 0px;
+    background-size: 150px 150px;
+}

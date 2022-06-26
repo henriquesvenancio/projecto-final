@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscricao</title>
+    <link rel="stylesheet" href="../_estilo/_inscrever.css">
+    <link rel="stylesheet" href="../_estilo/estilo.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <p>GRAFICA DA FAMÍLIA</p>
+     </div>
+     <hr>
+     <div class="menu">
+         <ul>
+            <li><a href="../_index.html">Pagina Inicial</a></li>
+             <li><a href="_projectos.html">Projectos</a></li>
+             <li><a href="_ensino.html">Ensino</a></li>
+             <li><a href="_logar.html">Logar</a></li>
+             <li><a style="color: red;" href="_inscrever.html">Increver-se</a></li>
+         </ul>
+     </div>
+         <form action="#" method="POST" id="cCadastro">
+            <fieldset id="telaGeral"><legend>Tela de Cadastro de novo Aluno</legend>
+            <fieldset id="candidato"><legend>Dados do Candidato</legend>
+                <label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" placeholder="Digite nome completo" maxlength="40" size="20"/>
+                <label for="cNumero">Número do documento:</label> <input type="text" name="tNumero" id="cNumero" placeholder="Digite o numéro do documento"><br>
+                E-mail: <input type="email" name="tEmail" size="20" maxlength="20" placeholder="Digite o seu e-mail">
+                Data de Nascimento: <input type="date" name="tData" id="cData" placeholder="12/01/2000" size="8"/>
+                <fieldset style="width: 100px; margin-left: 0px;" id="sexo"><legend>Sexo:</legend>
+                <input type="radio" name="tMasculino" id="cMasculino"><label for="cMasculino">Masculino</label><br>
+                <input type="radio" name="tFeminino" id="cFeminino"><label for="cFeminino">Feminino</label>
+            </fieldset>
+
+            </fieldset>
+           
+                <fieldset style="float: left;" id="academico"><legend>Dados Académicos e Endereço</legend>
+                    <p>Nível académico: <select name="tNivel" id="cNivel">
+                        <option value="Bsc">Básico</option>
+                        <option value="Med">Médio</option>
+                        <option value="Lic">Licenciatura</option>
+                        <option value="Mes">Mestrado</option>
+                    </select></p>
+                    <p>Curso pretendido: <select name="tCurso" id="cCurso">
+                        <option value="Desg">Design gráfico</option>
+                        <option value="">Manipulação de imagens</option>
+                        <option value="">Edição de videos</option>
+                    </select></p>
+                    <p>Provincia: <select name="tProvincia" id="cProvincia" placeholder="Escolhe a provincia">
+                        <optgroup label="Zona Sul">
+                            <option value="Mpt">Maputo</option>
+                            <option value="Gaza">Gaza</option>
+                            <option value="Inb">Inhambane</option>
+                        </optgroup>
+                        <optgroup label="Zona Centro">
+                            <option value="Mnc">Manica</option>
+                            <option value="Sfa">Sofala</option>
+                            <option value="Zbz">Zambézia</option>
+                            <option value="Tet">Tete</option>
+                        </optgroup>
+                        <optgroup label="Zona Norte">
+                            <option value="Nmp">Nampula</option>
+                            <option value="CD">Cabo Delgado</option>
+                            <option value="Nic">Niassa</option>
+                        </optgroup>
+                    </select></p>
+                    <p>Cidade: <input type="text" name="tPosto" id="cPosto" maxlength="40" size="20" placeholder="Sua cidade" list="lista"></p>
+                    <datalist id="lista">
+                        <option value="Matola"></option>
+                        <option value="Machava"></option>
+                        <option value="Xai-xai"></option>
+                        <option value="Inharrime"></option>
+                        <option value="Inhambane"></option>
+                        <option value="Beira"></option>
+                        <option value="Manica"></option>
+                        <option value="Quelimane"></option>
+                        <option value="Tete"></option>
+                        <option value="Nampula"></option>
+                        <option value="Pemba"></option>
+                        <option value="Lichinga"></option>
+                    </datalist>
+                    </select></p>
+                </fieldset> 
+                <fieldset id="login"><legend> Dados de Acesso</legend>
+                    <p>Usúario: <input type="text" name="tUsuario" id="cUsuari" placeholder="Digite o usúario" maxlength="20"></p>
+                    <p>Palavra-passe: <input type="password" name="tPasse" id="cPasse" maxlength="14" size="8" placeholder="Palavra-passe"/></p>
+                    </fieldset>               
+            </fieldset>
+        <div id="boton">
+            <input id="botao" type="submit" value="Enviar" size="20">
+
+            <input id="botao1" type="reset" value="Cancelar" size="20">
+            </form>
+        </div>    
+        
+         </div>
+    </div>
+</body>
+</html>

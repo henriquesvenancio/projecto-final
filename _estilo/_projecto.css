@@ -1,0 +1,120 @@
+*{
+    font-size: 16px;
+}
+
+div.project h1{
+    position: relative;
+}
+
+div.promocao{
+    text-align: justify;
+    width: 700px;
+    position: relative;
+    margin: -50px auto;
+}
+
+div.descricao{
+    text-align: justify;
+    width: 700px;
+    position: relative;
+    margin: 0px auto;
+}
+div.descricao em{
+    font-size: 22pt;
+    text-decoration: dashed;
+}
+ul#projectos{
+    width: 670px;
+    margin: 0px auto;
+    padding: 50px;
+    color: #000000;
+    overflow: hidden;
+    list-style: none;
+}
+ul#projectos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    color: #000000;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in;
+}
+ul#projectos li span{
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#projectos li:hover{
+    transform: scale(1.2);
+}
+ul#projectos li:hover span{
+    opacity: 1;
+}
+ul#projectos li#logotipo{
+    background: url(../_imagem/logoFoto.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1673px 861px;
+    background-color: #ffffff;
+}
+ul#projectos li#logotipo:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#projectos li#panfletos{
+    background: url(../_imagem/_cartaz3.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 181px 193px;
+    background-color: #ffffff;
+}
+ul#projectos li#panfletos:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#projectos li#cartao{
+    background: url(../_imagem/_cartaovisita.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 255px 255px;
+    background-color: #ffffff;
+}
+ul#projectos li#cartao:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#projectos li#edicao{
+    background: url(../_imagem/_imagem_geral.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 640px 413px;
+    background-color: #ffffff;
+}
+ul#projectos li#edicao:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#projectos li#convite{
+    background: url(../_imagem/_cartaz2.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 255px 255px;
+    background-color: #ffffff;
+}
+ul#projectos li#convite:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#projectos li#mackup{
+    background: url(../_imagem/_mackup.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 255px 255px;
+    background-color: #ffffff;
+}
+ul#projectos li#mackup:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

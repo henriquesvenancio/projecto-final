@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(151, 151, 240, 0.651);
+    color: #110a0a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+.centro{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+img{    
+    margin: 0px 0px -50px auto;
+    width: 450px;
+    position: relative;
+}
+/*formatação do cabeçalho*/
+.cabecalho{
+    margin: -25px -7px 10px -7px;
+    font-size: 18pt;
+    color: #A53077;
+    text-shadow: 2px 2px 10px black;background-color: rgb(169, 169, 169);
+    height: 110px;
+    width: auto;
+    position: relative;
+}div.cabecalho p{
+    padding: 20px 0px 0px 10px;
+}
+
+hr{
+    margin-top: -8px;
+    border-color: darkred;
+    width: 100%;
+    position: relative;
+}
+/*formatacao de menu*/
+div.menu{
+    display: block;
+    background-attachment: fixed;
+}
+/*formatação do menu*/
+div.menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    left:230px;
+    top: 5px;
+}
+div.menu li{
+    display: inline-block;
+    background-color:#dddddd;
+    padding: 5px;
+    margin: 2px;
+    transition: background-color 1s;
+    font-size: 16px;
+}
+div.menu li:hover{
+    background-color: rgb(226, 64, 64);
+}
+div.menu a{
+    color: darkgreen;
+    text-decoration: none;
+}
+div.menu a:hover{
+    color: blue;
+}
+/*formatação do conteudo*/
+div.conteudo{
+    width: 700px;
+    position: relative;
+    text-align: justify;
+    margin: 0px auto;
+}
+
+/*formatação do rodapé*/
+div.rodape p{
+    margin: 50px auto;
+    position: relative;
+    width: 700px;
+    text-align: center;
+}
